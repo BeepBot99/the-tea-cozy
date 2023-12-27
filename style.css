@@ -1,1 +1,136 @@
+* {
+    box-sizing: border-box;
+    color: seashell;
+    font-family: Helvetica;
+}
 
+body {
+    margin: 0;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+nav {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background-color: black;
+    z-index: 9999;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav div {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 16em;
+}
+
+#mission {
+    position: relative;
+    top: 69px;
+    height: 700px;
+    display: flex;
+    background-image: url("images/img-mission-background.jpg");
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#mission content {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mission content h2,
+#mission content h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+#featured {
+    margin: 0 auto;
+    position: relative;
+    top: 119px;
+    width: 1000px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.image h4 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("images/img-locations-background.jpg");
+    position: relative;
+    top: 169px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locations-container {
+    position: relative;
+    top: 15px;
+    display: flex;
+    width: 980px;
+    justify-content: space-between;
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.location span {
+    margin: 20px;
+}
+
+footer {
+    position: relative;
+    top: 169px;
+    height: 200px;
+}
+
+.copyright {
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+    top: 169px;
+    text-align: left;
+    display: block;
+    padding-bottom: 20px;
+}
